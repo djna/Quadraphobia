@@ -1,0 +1,24 @@
+{
+  "name": "quadraphobia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "equator.js",
+  "dependencies": {
+    "decimal.js": "^10.3.1",
+    "js-big-decimal": "^1.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djna/Quadraphobia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djna/Quadraphobia/issues"
+  },
+  "homepage": "https://github.com/djna/Quadraphobia#readme"
+}
