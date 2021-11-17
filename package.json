@@ -1,7 +1,6 @@
 {
   "name": "quadraphobia",
   "version": "1.0.0",
-  "description": "",
   "main": "equator.js",
   "dependencies": {
     "decimal.js": "^10.3.1",
@@ -20,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/djna/Quadraphobia/issues"
   },
-  "homepage": "https://github.com/djna/Quadraphobia#readme"
+  "homepage": "https://github.com/djna/Quadraphobia#readme",
+  "description": ""
 }
