@@ -1,4 +1,5 @@
 
+console.log ("" + what);
 let aBadNumber = Number("x");
 let bBadNumber = Number("x");
 let badEqualsBad = aBadNumber === bBadNumber;
@@ -17,3 +18,5 @@ console.log("lots ", lotsMoreThanMax);
 
 let wayMoreThanMax = Number.MAX_VALUE + 9.979202e291;
 console.log("way ", wayMoreThanMax);
+
+let what = 66;
