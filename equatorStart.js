@@ -8,25 +8,20 @@ class Quadratic {
     }
 
     evaluate(x){
-        let axsquared = this.a * x * x;
-        let bx = this.b * x;
-        let xpart = axsquared + bx;
-        let value = xpart + this.c;
+        // compute value = a x squared + b x + c
         return value;
     }
 
     solveZero(){
 
-        let bsquaredminus4ac = (this.b ** 2) - (4 * this.a * this.c);
-   
-        let plusSolution = ( (-this.b) + Math.sqrt(bsquaredminus4ac) ) / (2 * this.a );
-   
-        let minusSolution = ( (-this.b) - Math.sqrt(bsquaredminus4ac) ) / (2 * this.a );
-   
+        // use the formula to obtain two solutions
+        // and 
+        let status = true; // or false if failed
+        
         return {
-            solved : true,
+            solved : status,
             solutionValues: [plusSolution, minusSolution ],
-            error : null
+            error : null // or reason for failure
        };
    }
 
